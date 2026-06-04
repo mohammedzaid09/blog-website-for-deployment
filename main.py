@@ -32,6 +32,10 @@ This will install the packages from the requirements.txt for this project.
 
 app = Flask(__name__)
 
+@app.route("/test")
+def test():
+    return "render working"
+
 load_dotenv()
 
 app.config['SECRET_KEY'] = os.getenv("FLASK_KEY")
