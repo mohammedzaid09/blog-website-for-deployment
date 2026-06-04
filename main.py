@@ -195,7 +195,8 @@ def logout():
 
 @app.route('/')
 def get_all_posts():
-    return "Working"
+        
+    return render_template("index.html", all_posts=[], current_user=current_user)
 
 
 # Add a POST method to be able to post comments
