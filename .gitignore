@@ -8,6 +8,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+.env
 Icon
 # and thumbnails
 ._*
